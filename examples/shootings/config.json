@@ -1,0 +1,31 @@
+{
+    "aggregate": [], 
+    "fields": {
+        "Injured": {
+            "field": "injured", 
+            "type": "int"
+        }, 
+        "Shooter": {
+            "field": "shooter", 
+            "type": "string"
+        }, 
+        "Dead": {
+            "field": "dead", 
+            "type": "int"
+        }, 
+        "Location": {
+            "field": "location", 
+            "type": "string",
+            "geocode": "1"
+        }, 
+        "Date": {
+            "field": "date", 
+            "type": "string"
+        }, 
+        "Article": {
+            "field": "article", 
+            "array": 1, 
+            "type": "string"
+        }
+    }
+}
